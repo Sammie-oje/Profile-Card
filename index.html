@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>My | Profile-Card</title>
+  </head>
+  <body>
+    <article data-testid="test-profile-card">
+      <figure>
+        <img
+          src="https://randomuser.me/api/portraits/men/1.jpg"
+          alt="profile"
+        />
+      </figure>
+      <!-- User-info -->
+      <section clas>
+        <h2 data-testid="test-user-name">Sammie</h2>
+        <!-- About me -->
+        <p data-testid="test-user-bio">
+          Hi 👋, I'm Sammie a front-end developer. I love creating and pushing
+          pixel perfect designs, when I am not coding I love watching anime(My
+          favourite so far is demon slayer).
+        </p>
+      </section>
+      <!-- Social links -->
+      <section>
+        <h3>Social links:</h3>
+        <nav data-testid="test-user-social-links">
+          <a
+            href="#"
+            data-testid="test-user-social-github"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Github</a
+          >
+          <a
+            href="#"
+            data-testid="test-user-social-linkedin"
+            target="_blank"
+            rel="noopener noreferrer"
+            >LinkedIn</a
+          >
+          <a
+            href="#"
+            data-testid="test-user-social-twitter"
+            target="_blank"
+            rel="noopener noreferrer"
+            >X( formerly Twitter)</a
+          >
+        </nav>
+      </section>
+      <!-- Hobbies -->
+      <section>
+        <h3>Hobbies:</h3>
+        <ul data-testid="test-user-hobbies">
+          <li>Coding</li>
+          <li>Anime</li>
+          <li>Making money</li>
+        </ul>
+      </section>
+      <!-- Dislikes -->
+      <section>
+        <h3>Dislikes</h3>
+        <ul data-testid="test-user-dislikes">
+          <li>BS</li>
+          <li>Bugs in my code</li>
+          <li>Mediocrity</li>
+        </ul>
+      </section>
+
+      <time datetime=""></time>
+    </article>
+    <script src="app.js"></script>
+  </body>
+</html>
