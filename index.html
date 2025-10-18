@@ -3,20 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/avatar.png" type="image/png" />
     <link rel="stylesheet" href="index.css" />
     <title>My | Profile-Card</title>
   </head>
   <body>
     <article data-testid="test-profile-card">
       <figure>
-        <img
-          src="https://randomuser.me/api/portraits/men/1.jpg"
-          alt="profile"
-        />
+        <img src="assets/avatar.png" alt="my avatar" width="200" height="200" />
       </figure>
       <!-- User-info -->
-      <section clas>
-        <h2 data-testid="test-user-name">Sammie</h2>
+      <section id="user-section">
+        <h2 data-testid="test-user-name" id="name-heading">Sammie</h2>
         <!-- About me -->
         <p data-testid="test-user-bio">
           Hi 👋, I'm Sammie a front-end developer. I love creating and pushing
@@ -26,51 +24,72 @@
       </section>
       <!-- Social links -->
       <section>
-        <h3>Social links:</h3>
-        <nav data-testid="test-user-social-links">
+        <h3>Social links</h3>
+        <nav data-testid="test-user-social-links" id="nav-links">
           <a
-            href="#"
+            href="https://github.com/Sammie-oje"
             data-testid="test-user-social-github"
             target="_blank"
             rel="noopener noreferrer"
-            >Github</a
           >
+            <img src="assets/github.svg" alt="github logo" />
+          </a>
           <a
-            href="#"
+            href="https://www.linkedin.com/in/sammie-oj-582021315/"
             data-testid="test-user-social-linkedin"
             target="_blank"
             rel="noopener noreferrer"
-            >LinkedIn</a
           >
+            <img src="assets/linkedIn.svg" alt="linkedIn logo" />
+          </a>
           <a
-            href="#"
+            href="https://x.com/0J_codes"
             data-testid="test-user-social-twitter"
             target="_blank"
             rel="noopener noreferrer"
-            >X( formerly Twitter)</a
           >
+            <img src="assets/twitter.svg" alt="twitter logo" />
+          </a>
         </nav>
       </section>
       <!-- Hobbies -->
-      <section>
-        <h3>Hobbies:</h3>
+      <section id="hobbies-section">
+        <h3>Hobbies</h3>
         <ul data-testid="test-user-hobbies">
-          <li>Coding</li>
-          <li>Anime</li>
-          <li>Making money</li>
+          <li>
+            <img src="assets/laptop.svg" alt="laptop icon" />
+            <span>Coding</span>
+          </li>
+          <li>
+            <img src="assets/baby.svg" alt="baby icon" />
+            <span>Anime</span>
+          </li>
+          <li>
+            <img src="assets/money.svg" alt="money icon" />
+            <span>Money</span>
+          </li>
         </ul>
       </section>
       <!-- Dislikes -->
-      <section>
+      <section id="dislikes-section">
         <h3>Dislikes</h3>
         <ul data-testid="test-user-dislikes">
-          <li>BS</li>
-          <li>Bugs in my code</li>
-          <li>Mediocrity</li>
+          <li>
+            <img src="assets/warning.svg" alt="warning icon" />
+            <span>BS</span>
+          </li>
+          <li>
+            <img src="assets/bugs.svg" alt="bug icon" />
+            <span>Bugs in my code</span>
+          </li>
+          <li>
+            <img src="assets/sleeping.svg" alt="mediocre icon" />
+            <span>Mediocrity</span>
+          </li>
         </ul>
       </section>
 
-      <time datetime=""></time>
+      <p id="time" data-testid="test-user-time"></p>
     </article>
     <script src="app.js"></script>
   </body>

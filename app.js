@@ -1,3 +1,4 @@
-const timeEl = document.querySelector("time");
+const timeEl = document.getElementById("time");
+const curDate = Date.now();
 
-timeEl.textContent = new Date().toLocaleTimeString();
+timeEl.textContent = curDate;
