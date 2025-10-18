@@ -23,6 +23,7 @@ article {
   gap: 1.5em;
   background-color: white;
   box-shadow: -1px 2px 10px rgba(143, 142, 142, 0.61);
+  margin: 2em 0;
 
   h2 {
     font-size: 2rem;
