@@ -9,8 +9,11 @@ A responsive, accessible Profile Card component built with semantic HTML, modern
 ✅ **Responsive Design**: Clean layout with CSS  
 ✅ **Testable**: All elements include required data-testid attributes  
 ✅ **Dynamic Content**: Real-time display of current time in milliseconds  
-✅ **Modern CSS**: Flexbox layouts with clean styling  
-✅ **Error Handling**: Fallback icons and proper image handling
+✅ **Modern CSS**: Flexbox layouts with clean styling
+
+## Live link
+[Deployed on Vercel] : https://hng-0-profile-card.vercel.app/
+
 
 ## 🎯 Required Elements (All Present)
 

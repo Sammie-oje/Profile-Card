@@ -1,4 +1,8 @@
 const timeEl = document.getElementById("time");
-const curDate = Date.now();
 
-timeEl.textContent = curDate;
+function updateDate() {
+  const curDate = Date.now();
+  timeEl.textContent = curDate
+}
+
+ setInterval(updateDate, 1000);
