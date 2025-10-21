@@ -3,15 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="assets/avatar.png" type="image/png" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" href="/assets/avatar.png" type="image/png" />
+    <link rel="stylesheet" href="/css/index.css" />
     <title>My | Profile-Card</title>
   </head>
   <body>
     <article data-testid="test-profile-card">
-      <figure>
-        <img src="assets/avatar.png" alt="my avatar" width="200" height="200" data-testid="test-user-avatar" />
-      </figure>
+      <header>
+        <section class="links-section">
+          <a href="contact.html">Contact page</a>
+          <a href="about.html">About page</a>
+        </section>
+        <figure>
+          <img
+            src="/assets/avatar.png"
+            alt="my avatar"
+            width="200"
+            height="200"
+            data-testid="test-user-avatar"
+          />
+        </figure>
+      </header>
+
       <!-- User-info -->
       <section id="user-section">
         <h2 data-testid="test-user-name" id="name-heading">Sammie</h2>
@@ -32,7 +45,7 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="assets/github.svg" alt="github logo" />
+            <img src="/assets/github.svg" alt="github logo" />
           </a>
           <a
             href="https://www.linkedin.com/in/sammie-oj-582021315/"
@@ -40,7 +53,7 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="assets/linkedIn.svg" alt="linkedIn logo" />
+            <img src="/assets/linkedIn.svg" alt="linkedIn logo" />
           </a>
           <a
             href="https://x.com/0J_codes"
@@ -48,7 +61,7 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="assets/twitter.svg" alt="twitter logo" />
+            <img src="/assets/twitter.svg" alt="twitter logo" />
           </a>
         </nav>
       </section>
@@ -57,15 +70,15 @@
         <h3>Hobbies</h3>
         <ul data-testid="test-user-hobbies">
           <li>
-            <img src="assets/laptop.svg" alt="laptop icon" />
+            <img src="/assets/laptop.svg" alt="laptop icon" />
             <span>Coding</span>
           </li>
           <li>
-            <img src="assets/baby.svg" alt="baby icon" />
+            <img src="/assets/baby.svg" alt="baby icon" />
             <span>Anime</span>
           </li>
           <li>
-            <img src="assets/money.svg" alt="money icon" />
+            <img src="/assets/money.svg" alt="money icon" />
             <span>Money</span>
           </li>
         </ul>
@@ -75,15 +88,15 @@
         <h3>Dislikes</h3>
         <ul data-testid="test-user-dislikes">
           <li>
-            <img src="assets/warning.svg" alt="warning icon" />
+            <img src="/assets/warning.svg" alt="warning icon" />
             <span>BS</span>
           </li>
           <li>
-            <img src="assets/bugs.svg" alt="bug icon" />
+            <img src="/assets/bugs.svg" alt="bug icon" />
             <span>Bugs</span>
           </li>
           <li>
-            <img src="assets/sleeping.svg" alt="mediocre icon" />
+            <img src="/assets/sleeping.svg" alt="mediocre icon" />
             <span>Mediocrity</span>
           </li>
         </ul>
@@ -91,6 +104,6 @@
 
       <p id="time" data-testid="test-user-time"></p>
     </article>
-    <script src="app.js"></script>
+    <script src="/app.js"></script>
   </body>
 </html>
