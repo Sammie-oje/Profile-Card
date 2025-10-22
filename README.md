@@ -12,7 +12,7 @@ A responsive, accessible Profile Card component built with semantic HTML, modern
 ✅ **Modern CSS**: Flexbox layouts with clean styling
 
 ## Live link
-[Deployed on Vercel] : https://hng-0-profile-card.vercel.app/
+[Deployed on Vercel] : https://hng-0-profile-card.netlify.app/
 
 
 ## 🎯 Required Elements (All Present)
